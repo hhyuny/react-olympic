@@ -35,6 +35,8 @@ const NationList = ({ medalsByNation, onRemoveNation }) => {
               <th className="table-gold">Gold</th>
               <th className="table-silver">Silver</th>
               <th className="table-bronze">Bronze</th>
+              <th className="table-total">Total</th>
+
               <th>etc.</th>
             </tr>
           </thead>

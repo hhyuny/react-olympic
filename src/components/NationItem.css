@@ -18,6 +18,10 @@ tr button:hover {
   color: #ffb703;
 }
 
+tr .total {
+  /* color: #e76f51; */
+  color: #fb5607;
+}
 /* .gold {
   color: #f5ff6d;
 }
