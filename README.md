@@ -2,7 +2,8 @@
 
 # React 개인과제
 
-![image](https://github.com/user-attachments/assets/b6bf308e-0c71-4552-afd1-e3759d7b0073)
+![image](https://github.com/user-attachments/assets/53a0dc24-0760-4ed1-9286-e23ade1567b2)
+
 
 ---
 
@@ -67,5 +68,6 @@
 - 국가명으로 검색할 수 있는 기능 구현
 - 추가 및 수정 후 국가명에 자동 포커스
 - 입력된 데이터가 하나도 없을 때 테이블을 화면에서 없애고, 사용자가 데이터를 입력하면 테이블을 렌더링 (삼항 연산자 사용 or 논리 && 연산자 사용)
+- 메달 합계를 보여주는 Total 항목 추가
 
 ---
