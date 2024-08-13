@@ -18,12 +18,6 @@ const NationList = ({ medalsByNation, onRemoveNation }) => {
   const filteredNation = filteringFunc();
   const filteredSortedNation = filteredNation.sort((a, b) => b.gold - a.gold);
 
-  // 사용자가 국가명 입력
-  // state 관리로 search에 넣어준다.
-  // 필터링하는 함수 실행하고 변수에 담는다
-  // 이 변수를 목록 뿌릴 때 넘겨준다.
-  // filteredNation 이거를 sort로 정렬해서 넘기면 되는 거 아니야?
-
   return (
     <div className="nationlist-wrapper">
       <input value={search} onChange={onSearchWord} placeholder="국가명 검색" type="text" />
@@ -54,5 +48,3 @@ const NationList = ({ medalsByNation, onRemoveNation }) => {
 };
 
 export default NationList;
-
-// { medalsByNation.length > 0 ?(<table></table>) : (<div>결과가 없습니다</div>)}
