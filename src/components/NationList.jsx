@@ -27,24 +27,30 @@ const NationList = ({ medalsByNation, onRemoveNation }) => {
   return (
     <div className="nationlist-wrapper">
       <input value={search} onChange={onSearchWord} placeholder="국가명 검색" type="text" />
-      <table className="nation-item">
-        <thead>
-          <tr>
-            <th>Nation</th>
-            <th className="table-gold">Gold</th>
-            <th className="table-silver">Silver</th>
-            <th className="table-bronze">Bronze</th>
-            <th>etc.</th>
-          </tr>
-        </thead>
-        <tbody>
-          {filteredSortedNation.map((nation) => (
-            <NationItem key={nation.id} {...nation} onRemoveNation={onRemoveNation} />
-          ))}
-        </tbody>
-      </table>
+      {medalsByNation.length > 0 ? (
+        <table className="nation-item">
+          <thead>
+            <tr>
+              <th>Nation</th>
+              <th className="table-gold">Gold</th>
+              <th className="table-silver">Silver</th>
+              <th className="table-bronze">Bronze</th>
+              <th>etc.</th>
+            </tr>
+          </thead>
+          <tbody>
+            {filteredSortedNation.map((nation) => (
+              <NationItem key={nation.id} {...nation} onRemoveNation={onRemoveNation} />
+            ))}
+          </tbody>
+        </table>
+      ) : (
+        <div className="no-data">국가 및 메달 정보를 입력하세요</div>
+      )}
     </div>
   );
 };
 
 export default NationList;
+
+// { medalsByNation.length > 0 ?(<table></table>) : (<div>결과가 없습니다</div>)}

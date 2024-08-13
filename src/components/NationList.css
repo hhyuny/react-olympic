@@ -54,3 +54,9 @@ td {
 .table-bronze {
   color: #99582a;
 } */
+
+.no-data {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+}
