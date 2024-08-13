@@ -1,0 +1,22 @@
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px 20px 40px;
+  background-color: #ffb703;
+  border-radius: 8px;
+  color: #14213d;
+  margin-bottom: 5px;
+  margin-top: 50px;
+}
+
+.header-wrapper h1 {
+  font-size: 65px;
+  line-height: 1.1em;
+}
+
+.header-wrapper img {
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 8px;
+}

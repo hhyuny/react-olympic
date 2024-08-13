@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Noto Sans KR", sans-serif;
+  padding: 0;
+}
+
+textarea,
+select,
+button,
+input {
+  border: none;
+  padding: 0;
+  background-color: transparent;
+}
+
+button:focus,
+button:active,
+input:focus,
+input:active {
+  box-shadow: none;
+  outline: none;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  /* background-color: hotpink; */
+  width: 950px;
+  margin: 0 auto;
+  font-family: "Noto Sans KR", sans-serif;
+}

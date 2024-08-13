@@ -1,0 +1,56 @@
+.nationlist-wrapper {
+  background-color: #ffb703;
+  padding: 25px 40px 25px 40px;
+  border-radius: 8px;
+  margin-bottom: 50px;
+}
+
+.nationlist-wrapper > input {
+  background-color: #f8f9fa;
+  width: 100%;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  /* background-color: #fcbf49; */
+  background-color: #ffd166;
+
+  color: #14213d;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+table th {
+  /* color: white; */
+  color: #14213d;
+  /* background-color: #14213d; */
+  font-size: 18px;
+  border-radius: 5px;
+  border-bottom: 4px solid #fff;
+}
+
+tr,
+th,
+td {
+  padding: 10px;
+  text-align: center;
+}
+
+/* .table-gold {
+  color: #fff05a;
+  color: #fceb02;
+  font-weight: 900;
+}
+
+.table-silver {
+  color: grey;
+}
+
+.table-bronze {
+  color: #99582a;
+} */
