@@ -36,6 +36,7 @@ const InputBar = ({ createNation, onUpdateNation, medalsByNation }) => {
 
     if (nation === "") {
       alert("국가를 입력해주세요.");
+      emptyInput();
       nationRef.current.focus();
       return;
     }
