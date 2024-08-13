@@ -4,7 +4,6 @@
 
 ![image](https://github.com/user-attachments/assets/53a0dc24-0760-4ed1-9286-e23ade1567b2)
 
-
 ---
 
 ## 프로젝트 개요
@@ -34,6 +33,8 @@
 ## 프로젝트 소개
 
 ### 배포 링크
+
+https://hhyuny.github.io/react-olympic/
 
 ### 개발환경(기술)
 
