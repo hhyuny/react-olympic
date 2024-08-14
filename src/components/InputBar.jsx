@@ -73,17 +73,6 @@ const InputBar = ({ createNation, onUpdateNation, medalsByNation }) => {
         </div>
         <div className="form-buttons">
           <button type="submit">추가</button>
-          {/* 1. input 창 중에 나라 이름에 매칭된 state 정보를 가져와야 한다 */}
-          {/* 2. state에 있는 나라이름으로 현재 존재하는 countries 배열에서 찾는다. find 메서드를 이용*/}
-          {/* const targetCountry = countires.find~~~~~ */}
-
-          {/* 3. 전체리스트가 10개, 수정 이후에도 10개*/}
-          {/* 3-1. map을 사용한다. map이 순회를 도는데 targetCountry의 이름과 일치하면, gold, silver, bronze, state에 맞게 수정한다  */}
-          {/* 3-2  targetCountry의 이름과 일치하지 않으면 그냥 내보낸다*/}
-          {/* const newConuntries =  */}
-
-          {/* 4. setCountries를 해주면 된다. 그러면 state 변경 -> 리렌더링 */}
-          {/* 5. input에 연결되어 있는 state들을 초기화해준다. */}
 
           <button onClick={onUpdate} type="button">
             수정
